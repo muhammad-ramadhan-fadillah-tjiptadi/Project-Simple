@@ -12,7 +12,8 @@ class _DoubleScreenState extends State<DoubleScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: Colors.deepPurple,
+        foregroundColor: Colors.white,
         title: const Text('Form Data'),
       ),
       body: SingleChildScrollView(
